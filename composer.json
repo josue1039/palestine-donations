@@ -1,0 +1,26 @@
+{
+    "name": "najam-relief/donation-platform",
+    "description": "Plateforme de dons pour l'aide humanitaire en Palestine",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "stripe/stripe-php": "^10.0",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NajamRelief\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "install-hooks": "php scripts/install-git-hooks.php"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
