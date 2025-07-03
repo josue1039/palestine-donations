@@ -1,1 +1,1 @@
-# palestine-donations
+# najam-institute.donorsupport
